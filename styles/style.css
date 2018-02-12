@@ -1,0 +1,194 @@
+body {
+font-family: 'Ubuntu Mono', monospace;
+background-color: #202020;
+
+}
+header img {
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+	padding-left: 91px;
+}
+header h1 {
+	color: #095386;
+	text-align: center;
+	font-size: 50px;
+}
+main {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	width: 80%;
+}
+.infoblock {
+	display: block;
+	width: 600px;
+	height: 600px;
+	background-color: #ffffff;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	color: #202020;
+}
+/*Css for Current speed*/
+.speed {
+	background-color: #ff829a;
+}
+/*Css for Distance traveled*/
+.distance {
+	background-color: #6f159b;
+	color: white;
+}
+.distance img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 70px;
+	margin-top: -40px;
+	width: 75%;
+}
+.distance p {
+	text-align: center;
+	margin-top: 26px;
+	font-size: 55px;
+	font-weight: bold;
+}
+.distance div {
+	display: block;
+	background-color: #7751B8;
+	margin-top: -40px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 80%;
+	border: solid #202020;
+	border-radius: 5px;
+}
+.distance div p {
+	display: block;
+	margin-left: 323px;
+	margin-top: -55px;
+}
+.timer{
+	display: block;
+	margin-top: 20px !important;
+	font-size: 60px !important;
+	padding-left: 30px;
+}
+/*Css for Estimated time*/
+.time {
+	background-color: #7fdb86;
+}
+/*Css for Water*/
+.water {
+	background-color: #60a6ff;
+}
+.watername {
+	font-size: 76px;
+	margin-left: 64px;
+	margin-top: -63px;
+}
+.waterleft {
+	font-size: 60px;
+	margin-top: -86px;
+	margin-left: 282px;
+}
+.water img {
+	margin-top: 112px;
+	width: 50%;
+}
+.water .waterbar {
+	display: block;
+	width: 140px;
+	height: 65%;
+	margin-left: 47%;
+	margin-top: -358px;
+	background-color: #2c48e8;
+	border: solid 5px #202020;
+}
+.water .waterbar2 {
+	margin-top: -427px;
+	display: block;
+	width: 140px;
+	height: 60%;
+	background-color: white ;
+	animation: down 5s ease-out;
+}
+.water .waterbar p {
+	font-size: 46px;
+	padding-bottom: 60px;
+}
+.water .waterbar .wateramount {
+	width: 100%;
+	margin-top: -75px;
+	margin-left: 138px;
+}
+/*Css for Fuel*/
+.fuel {
+	background-color: #686868;
+}
+.fuelname {
+	font-size: 76px;
+	margin-left: 64px;
+	margin-top: -63px;
+}
+.fuelleft {
+	font-size: 60px;
+	margin-top: -86px;
+	margin-left: 282px;
+}
+.fuel img {
+	margin-top: 112px;
+	margin-left: 17px;
+	width: 40%;
+}
+.fuel .fuelbar {
+	display: block;
+	width: 140px;
+	height: 65%;
+	margin-left: 47%;
+	margin-top: -303px;
+	background-color: #202020;;
+	border: solid 5px #202020;
+}
+.fuel .fuelbar2 {
+	margin-top: -427px;
+	display: block;
+	width: 140px;
+	height: 40%;
+	background-color: white ;
+	animation: down2 3s ease-out;
+}
+.fuel .fuelbar p {
+	font-size: 46px;
+	padding-bottom: 48px;
+}
+.fuel .fuelbar .fuelamount {
+	width: 100%;
+	margin-top: -39px;
+	margin-left: 138px;
+}
+
+/*Keyframes for animations*/
+@keyframes down {
+	from {
+		height: 0%;
+	}
+	to {
+		height: 60%;
+	}
+}
+@keyframes down2 {
+	from {
+		height: 0%;
+	}
+	to {
+		height: 40%;
+	}
+}
+
