@@ -20,7 +20,6 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
-/*	width: 80%;*/
 }
 .infoblock {
 	display: block;
@@ -81,6 +80,66 @@ main {
 /*Css for Estimated time*/
 .time {
 	background-color: #7fdb86;
+	color: white;
+}
+.time .timebar {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -19px;
+	background-color: white; 
+	width: 220px;
+	height: 30px;
+	border: 3px solid #202020;
+	border-radius: 5px;
+}
+.time .timebar2 {
+	width: 65px;
+	height: 30px;
+	background-color: green; 
+	animation: side 3s ease-out;
+}
+.time .timername {
+	display: flex;
+	flex-direction: row;
+	margin-top: 10px;
+}
+.time .earth {
+	margin-left: 12px;
+}
+.time .mars {
+	margin-left: 114px;
+}
+.time p {
+	text-align: center;
+	margin-top: 2px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.exacttime {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.time .amounttime p {
+	display: block;
+	padding: 3px;
+	margin: 0;
+
+}
+.time .amounttime {
+	background-color: green;
+	border: 3px solid #202020;
+	border-radius: 5px;
+	margin-top: 5px;
+}
+.time .times p{
+	text-align: left;
+	padding: 4px;
+	margin: 0;
+}
+.times {
+	margin-top: 5px;
 }
 
 
@@ -175,6 +234,14 @@ main {
 
 
 /*Keyframes for animations*/
+@keyframes side {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 30%;
+	}
+}
 @keyframes down {
 	from {
 		height: 0%;

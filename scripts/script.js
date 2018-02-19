@@ -81,5 +81,48 @@ jQuery(function($) {
             }
         });
     });
-
-
+//timers for time
+jQuery(function($) {
+        $('.timer4').countTo({
+            from: 20,
+            to: 15,
+            speed: 1000,
+            refreshInterval: 50,
+            onComplete: function(value) {
+                console.debug(this);
+            }
+        });
+    });
+jQuery(function($) {
+        $('.timer5').countTo({
+            from: 10,
+            to: 5,
+            speed: 1000,
+            refreshInterval: 50,
+            onComplete: function(value) {
+                console.debug(this);
+            }
+        });
+    });
+jQuery(function($) {
+        $('.timer6').countTo({
+            from: 30,
+            to: 19,
+            speed: 2000,
+            refreshInterval: 50,
+            onComplete: function(value) {
+                console.debug(this);
+            }
+        });
+    });
+jQuery(function($) {
+        $('.timer7').countTo({
+            from: 6,
+            to: 3,
+            speed: 1000,
+            refreshInterval: 50,
+            onComplete: function(value) {
+                console.debug(this);
+            }
+        });
+    });
