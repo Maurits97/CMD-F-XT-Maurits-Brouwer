@@ -106,9 +106,9 @@ jQuery(function($) {
     });
 jQuery(function($) {
         $('.timer6').countTo({
-            from: 30,
-            to: 19,
-            speed: 2000,
+            from: 19,
+            to: 1,
+            speed: 2000000,
             refreshInterval: 50,
             onComplete: function(value) {
                 console.debug(this);

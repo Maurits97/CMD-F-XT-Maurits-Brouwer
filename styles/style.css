@@ -232,7 +232,6 @@ main {
 	margin-left: 138px;
 }
 
-
 /*Keyframes for animations*/
 @keyframes side {
 	from {
@@ -257,5 +256,12 @@ main {
 	to {
 		height: 40%;
 	}
+}
+/*Changes for Tablets */
+@media screen and (min-width: 720px) {
+}
+
+/*Changes for Desktop */
+@media screen and (min-width: 1025px) {
 }
 
