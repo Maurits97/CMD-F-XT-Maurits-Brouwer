@@ -74,7 +74,7 @@ jQuery(function($) {
         $('.timer3').countTo({
             from: 5000,
             to: 1900,
-            speed: 4600,
+            speed: 5000,
             refreshInterval: 50,
             onComplete: function(value) {
                 console.debug(this);

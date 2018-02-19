@@ -6,6 +6,7 @@ header img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 47px;
 	width: 90%;
 }
 header h1 {
@@ -163,7 +164,7 @@ main {
 	margin-top: 177px;
 	display: block;
 	width: 60px;
-	height: 99px;
+	height: 98px;
 	background-color: white ;
 	animation: down 5s ease-out;
 }
