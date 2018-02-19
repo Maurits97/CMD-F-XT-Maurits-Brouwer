@@ -1,20 +1,17 @@
 body {
 font-family: 'Ubuntu Mono', monospace;
 background-color: #202020;
-
 }
 header img {
 	display: block;
-	width: 90%;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 25px;
-	padding-left: 91px;
+	width: 90%;
 }
 header h1 {
 	color: #095386;
 	text-align: center;
-	font-size: 50px;
+	font-size: 25px;
 }
 main {
 	display: flex;
@@ -22,12 +19,12 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
-	width: 80%;
+/*	width: 80%;*/
 }
 .infoblock {
 	display: block;
-	width: 600px;
-	height: 600px;
+	width: 250px;
+	height: 250px;
 	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
@@ -48,131 +45,133 @@ main {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	padding-left: 70px;
-	margin-top: -40px;
-	width: 75%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 120px;
+	height: 120px;
 }
 .distance p {
 	text-align: center;
-	margin-top: 26px;
-	font-size: 55px;
+	margin-top: 9px;
+	font-size: 25px;
 	font-weight: bold;
 }
 .distance div {
 	display: block;
 	background-color: #7751B8;
-	margin-top: -40px;
 	margin-left: auto;
 	margin-right: auto;
-	height: 100px;
+	height: 50px;
 	width: 80%;
 	border: solid #202020;
 	border-radius: 5px;
 }
 .distance div p {
 	display: block;
-	margin-left: 323px;
-	margin-top: -55px;
+	margin-left: 147px;
+	margin-top: -29px;
 }
 .timer{
 	display: block;
-	margin-top: 20px !important;
-	font-size: 60px !important;
-	padding-left: 30px;
+	margin-top: 9px;
+	font-size: 30px;
+	padding-left: 12px;
 }
 /*Css for Estimated time*/
 .time {
 	background-color: #7fdb86;
 }
-/*Css for Water*/
-.water {
-	background-color: #60a6ff;
-}
-.watername {
-	font-size: 76px;
-	margin-left: 64px;
-	margin-top: -63px;
-}
-.waterleft {
-	font-size: 60px;
-	margin-top: -86px;
-	margin-left: 282px;
-}
-.water img {
-	margin-top: 112px;
-	width: 50%;
-}
-.water .waterbar {
-	display: block;
-	width: 140px;
-	height: 65%;
-	margin-left: 47%;
-	margin-top: -358px;
-	background-color: #2c48e8;
-	border: solid 5px #202020;
-}
-.water .waterbar2 {
-	margin-top: -427px;
-	display: block;
-	width: 140px;
-	height: 60%;
-	background-color: white ;
-	animation: down 5s ease-out;
-}
-.water .waterbar p {
-	font-size: 46px;
-	padding-bottom: 60px;
-}
-.water .waterbar .wateramount {
-	width: 100%;
-	margin-top: -75px;
-	margin-left: 138px;
-}
+
+
 /*Css for Fuel*/
 .fuel {
 	background-color: #686868;
 }
 .fuelname {
-	font-size: 76px;
-	margin-left: 64px;
-	margin-top: -63px;
+	font-size: 40px;
+	margin-top: -41px;
+	margin-left: 20px;
 }
 .fuelleft {
-	font-size: 60px;
-	margin-top: -86px;
-	margin-left: 282px;
+	font-size: 25px;
+	margin-top: -30px;
+	margin-left: 125px;
 }
 .fuel img {
-	margin-top: 112px;
+	margin-top: 61px;
 	margin-left: 17px;
-	width: 40%;
+	width: 80px;
 }
 .fuel .fuelbar {
 	display: block;
-	width: 140px;
-	height: 65%;
-	margin-left: 47%;
-	margin-top: -303px;
+	width: 60px;
+	height: 162px;
+	margin-left: 123px;
+	margin-top: -123px;
 	background-color: #202020;;
 	border: solid 5px #202020;
 }
 .fuel .fuelbar2 {
-	margin-top: -427px;
+	margin-top: 177px;
 	display: block;
-	width: 140px;
-	height: 40%;
+	width: 60px;
+	height: 65px;
 	background-color: white ;
 	animation: down2 3s ease-out;
 }
-.fuel .fuelbar p {
-	font-size: 46px;
-	padding-bottom: 48px;
+.baramount {
+	margin-left: 191px;
+	margin-top: -168px;
+}
+.baramount p {
+	padding-bottom: 16px;
 }
 .fuel .fuelbar .fuelamount {
-	width: 100%;
-	margin-top: -39px;
+	margin-top: -177px;
 	margin-left: 138px;
 }
+
+/*Css for Water*/
+.water {
+	background-color: #60a6ff;
+}
+.watername {
+	font-size: 40px;
+	margin-top: -41px;
+	margin-left: 20px;
+}
+.waterleft {
+	font-size: 25px;
+	margin-top: -30px;
+	margin-left: 125px;
+}
+.water img {
+	margin-top: 30px;
+	margin-left: 8px;
+	width: 115px;
+}
+.water .waterbar {
+	display: block;
+	width: 60px;
+	height: 162px;
+	margin-left: 123px;
+	margin-top: -127px;
+	background-color: #2F4FE4;
+	border: solid 5px #2F4FE4;
+}
+.water .waterbar2 {
+	margin-top: 177px;
+	display: block;
+	width: 60px;
+	height: 99px;
+	background-color: white ;
+	animation: down 5s ease-out;
+}
+.water .waterbar .wateramount {
+	margin-top: -177px;
+	margin-left: 138px;
+}
+
 
 /*Keyframes for animations*/
 @keyframes down {
