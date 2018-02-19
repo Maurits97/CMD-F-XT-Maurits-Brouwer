@@ -60,8 +60,8 @@ jQuery(function($) {
 //Timer for Fuel
 jQuery(function($) {
         $('.timer2').countTo({
-            from: 10000,
-            to: 6100,
+            from: 600000,
+            to: 11000,
             speed: 2800,
             refreshInterval: 50,
             onComplete: function(value) {
@@ -72,8 +72,8 @@ jQuery(function($) {
 //Timer for Fuel
 jQuery(function($) {
         $('.timer3').countTo({
-            from: 5000,
-            to: 1900,
+            from: 10000,
+            to: 2900,
             speed: 5000,
             refreshInterval: 50,
             onComplete: function(value) {
