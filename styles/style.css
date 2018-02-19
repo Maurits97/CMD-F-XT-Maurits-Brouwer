@@ -94,7 +94,7 @@ main {
 	border-radius: 5px;
 }
 .time .timebar2 {
-	width: 65px;
+	width: 66px;
 	height: 30px;
 	background-color: green; 
 	animation: side 3s ease-out;
