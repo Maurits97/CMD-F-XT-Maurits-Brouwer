@@ -10,27 +10,27 @@ Bij challenge 1 hadden wij de opdracht om voor SpaceX, een ruimtevaartbedrijf va
 Bij deze opdracht moest je minimaal drie data visualisaties kiezen en deze maken voor minimaal 3 beeldschermen. Mijn dashboard is gemaakt voor mobiel, tablet en desktop en bestaat uit:
 
 
-- Current speed
+- #####Current speed
 
 
 (info)
 
-- Distance traveled
+- #####Distance traveled
 
 
 Hierbij is er vanuit gegaan dat het spaceship gemiddeld ongeveer 7 km/h gaat. Het spaceship plaatje is gratis te gebruiken. Voor dat plaatje had ik een ander plaatje van google, echter zou ik hier 4 dollar voor hebben moeten betalen. Toen ik hier achter kwam heb ik hem omgewisseld.
 
-- Estimated Time
+- #####Estimated Time
 
 
 De meegenomen tijdaanduidingen zijn Maanden, Dagen, Uren en Minuten. Dit is gedaan om een combinatie te krijgen tussen lange en korte tijd.
 
-- Fuel
+- #####Fuel
 
 
 Bij de fuel is er uitgegaan dat er gemiddel 70.000 liter brandstof in een spaceship gaat. 
 
-- Water
+- #####Water
 
 
 Het water was wat moeilijker in te schatten. Voor het prototype ben ik van ongeveer 10.000 liter uit gegaan.
