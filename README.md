@@ -18,17 +18,17 @@ Bij deze opdracht moest je minimaal drie data visualisaties kiezen en deze maken
 ### Distance traveled
 
 
-Hierbij is er vanuit gegaan dat het spaceship gemiddeld ongeveer 7 km/h gaat. Het spaceship plaatje is gratis te gebruiken. Voor dat plaatje had ik een ander plaatje van google, echter zou ik hier 4 dollar voor hebben moeten betalen. Toen ik hier achter kwam heb ik hem omgewisseld.
+Hierbij is er vanuit gegaan dat het spaceship gemiddeld ongeveer 7 km/h gaat. Het spaceship plaatje is gratis te gebruiken. Voordat ik dat plaatje had, ik een ander plaatje van google. Hier zou ik echter 4 dollar voor hebben moeten betalen. Toen ik hier achter kwam heb ik hem omgewisseld.
 
 ### Estimated Time
 
 
-De meegenomen tijdaanduidingen zijn Maanden, Dagen, Uren en Minuten. Dit is gedaan om een combinatie te krijgen tussen lange en korte tijd.
+De meegenomen tijdsaanduidingen zijn Maanden, Dagen, Uren en Minuten. Dit is gedaan om een combinatie te krijgen tussen lange en korte tijd.
 
 ### Fuel
 
 
-Bij de fuel is er uitgegaan dat er gemiddel 70.000 liter brandstof in een spaceship gaat. 
+Bij de fuel is er uitgegaan dat er gemiddeld 70.000 liter brandstof in een spaceship gaat. 
 
 ### Water
 
