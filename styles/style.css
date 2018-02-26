@@ -84,7 +84,6 @@ main {
     display: inline-block;
     margin-left: 13px;
     margin-top: 16px;
-    animation: border 5 ease;
 }
 #logo .needle {
     width: 5px;
@@ -362,10 +361,6 @@ main {
     100%{transform:rotate(65deg);}
     
 }
-@keyframes border {
-	0% {transform: }
-}
-
 /*smaller than tablets */
 @media screen and (max-width: 720px) {
 	main {
