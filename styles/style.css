@@ -1,6 +1,6 @@
 body {
-font-family: 'Ubuntu Mono', monospace;
-background-color: #202020;
+	font-family: 'Ubuntu Mono', monospace;
+	background-color: #202020;
 }
 header img {
 	display: block;
@@ -68,7 +68,6 @@ main {
 	margin-top: 4px;
 	margin-left: 10px;
 }
-
 #logo {
     display: inline-block;
     position: relative;
@@ -119,20 +118,17 @@ main {
 .number10000 {
 	display: block;
 	margin-left: 96px;
-	margin-top: -52px;
-	
+	margin-top: -52px;	
 }
 .number30000 {
 	display: block;
 	margin-left: 151px;
 	margin-top: -15px;
-	
 }
 .number60000 {
 	display: block;
 	margin-top: 27px;
-	margin-left: 182px;
-	
+	margin-left: 182px;	
 }
 /*Css for Distance traveled*/
 .distance {
@@ -223,7 +219,6 @@ main {
 	display: block;
 	padding: 3px;
 	margin: 0;
-
 }
 .time .amounttime {
 	background-color: green;
@@ -239,8 +234,6 @@ main {
 .times {
 	margin-top: 5px;
 }
-
-
 /*Css for Fuel*/
 .fuel {
 	background-color: #686868;
@@ -288,7 +281,6 @@ main {
 	margin-top: -177px;
 	margin-left: 138px;
 }
-
 /*Css for Water*/
 .water {
 	background-color: #60a6ff;
@@ -358,22 +350,19 @@ main {
 @keyframes move{
     0%{transform:rotate(-110deg);}
 
-    100%{transform:rotate(65deg);}
-    
+    100%{transform:rotate(65deg);} 
 }
 /*smaller than tablets */
 @media screen and (max-width: 720px) {
 	main {
 		max-width: 250px;
 	}
-
 }
 /*Changes for Tablets */
 @media screen and (min-width: 720px) {
 	main {
 		max-width: 556px;
 	}
-
 }
 /*Changes for Desktop */
 @media screen and (min-width: 1025px) {
@@ -383,6 +372,4 @@ main {
 	header img {
 		width: 70%;
 	}
-
 }
-
