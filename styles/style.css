@@ -28,7 +28,7 @@ main {
 	background-color: #ffffff;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 	border-radius: 10px;
 	color: #202020;
 }
@@ -43,7 +43,7 @@ main {
 	text-align: center;
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 7px;
+	margin-top: 9px;
 }
 .speednumber {
 	display: block;
@@ -54,7 +54,7 @@ main {
 	background-color: white;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 46px;
+	margin-top: 39px;
 	position: relative;
 }
 .speednumber p {
@@ -77,13 +77,14 @@ main {
     width: 190px;
     height: 190px;
     border-radius: 100%;
-    border: 20px solid white;
+    border: 20px solid #912137; 
     border-right: 20px solid #ff829a;
     border-bottom: 20px solid #ff829a;
     transform: rotate(45deg);
     display: inline-block;
     margin-left: 13px;
     margin-top: 16px;
+    animation: border 5 ease;
 }
 #logo .needle {
     width: 5px;
@@ -361,13 +362,32 @@ main {
     100%{transform:rotate(65deg);}
     
 }
-/*Changes for Tablets */
-@media screen and (min-width: 720px) {
-
+@keyframes border {
+	0% {transform: }
 }
 
+/*smaller than tablets */
+@media screen and (max-width: 720px) {
+	main {
+		max-width: 250px;
+	}
+
+}
+/*Changes for Tablets */
+@media screen and (min-width: 720px) {
+	main {
+		max-width: 556px;
+	}
+
+}
 /*Changes for Desktop */
 @media screen and (min-width: 1025px) {
+	main {
+		max-width: 835px;
+	}
+	header img {
+		width: 70%;
+	}
 
 }
 
