@@ -80,7 +80,7 @@ main {
     border: 20px solid white;
     border-right: 20px solid #ff829a;
     border-bottom: 20px solid #ff829a;
-    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
     display: inline-block;
     margin-left: 13px;
     margin-top: 16px;
@@ -97,8 +97,8 @@ main {
     left: 124px;
     position: absolute;
     top: 51px;
-    -webkit-animation:move 4s;
-    transform:rotate(65deg);
+    animation: move 4s;
+    transform: rotate(65deg);
 }
 .speednumbers {
 	color: #202020;
@@ -355,7 +355,7 @@ main {
 		height: 40%;
 	}
 }
-@-webkit-keyframes move{
+@keyframes move{
     0%{transform:rotate(-110deg);}
 
     100%{transform:rotate(65deg);}
@@ -368,6 +368,6 @@ main {
 
 /*Changes for Desktop */
 @media screen and (min-width: 1025px) {
-	
+
 }
 
