@@ -126,3 +126,14 @@ jQuery(function($) {
             }
         });
     });
+jQuery(function($) {
+        $('.timer8').countTo({
+            from: 0,
+            to: 47030,
+            speed: 3000,
+            refreshInterval: 50,
+            onComplete: function(value) {
+                console.debug(this);
+            }
+        });
+    });
