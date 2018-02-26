@@ -13,7 +13,7 @@ Bij deze opdracht moest je minimaal drie data visualisaties kiezen en deze maken
 ### Current speed
 
 
-Bij de snelheid is uitgegaan van afgerond 50.000 km per uur.
+Bij de snelheids meter ben ik van een snelheid van ongeveer 50.000 km per uur gegaan. 
 
 ### Distance traveled
 
