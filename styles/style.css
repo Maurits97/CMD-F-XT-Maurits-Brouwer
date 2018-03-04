@@ -322,6 +322,10 @@ main {
 	margin-top: -177px;
 	margin-left: 138px;
 }
+footer p{
+	text-align: center;
+	color: white;
+}
 
 /*Keyframes for animations*/
 @keyframes side {
