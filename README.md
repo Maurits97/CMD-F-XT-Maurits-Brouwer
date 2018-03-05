@@ -13,7 +13,7 @@ Bij deze opdracht moest je minimaal drie data visualisaties kiezen en deze maken
 ### Current speed
 
 
-Bij de snelheidsmeter ben ik van een snelheid van ongeveer 50.000 km per uur gegaan. 
+Bij de snelheidsmeter ben ik van een snelheid van ongeveer 28.000 km per uur gegaan. 
 
 ### Distance traveled
 
