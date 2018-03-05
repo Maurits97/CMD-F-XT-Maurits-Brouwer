@@ -97,7 +97,7 @@ main {
     position: absolute;
     top: 51px;
     animation: move 4s;
-    transform: rotate(65deg);
+    transform: rotate(40deg);
 }
 .speednumbers {
 	color: #202020;
@@ -357,7 +357,7 @@ footer p{
     	transform:rotate(-110deg);
     }
     100% {
-    	transform:rotate(65deg);
+    	transform:rotate(40deg);
     } 
 }
 /*smaller than tablets */

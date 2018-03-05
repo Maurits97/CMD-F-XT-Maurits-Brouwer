@@ -129,7 +129,7 @@ jQuery(function($) {
 jQuery(function($) {
         $('.timer8').countTo({
             from: 0,
-            to: 47030,
+            to: 28010,
             speed: 3600,
             refreshInterval: 50,
             onComplete: function(value) {
