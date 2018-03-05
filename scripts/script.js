@@ -50,7 +50,7 @@ jQuery(function($) {
         $('.timer').countTo({
             from: 0,
             to: 5000,
-            speed: 1000000,
+            speed: 100000,
             refreshInterval: 50,
             onComplete: function(value) {
                 console.debug(this);
