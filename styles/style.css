@@ -352,10 +352,13 @@ footer p{
 		height: 40%;
 	}
 }
-@keyframes move{
-    0%{transform:rotate(-110deg);}
-
-    100%{transform:rotate(65deg);} 
+@keyframes move {
+    0% { 
+    	transform:rotate(-110deg);
+    }
+    100% {
+    	transform:rotate(65deg);
+    } 
 }
 /*smaller than tablets */
 @media screen and (max-width: 720px) {
