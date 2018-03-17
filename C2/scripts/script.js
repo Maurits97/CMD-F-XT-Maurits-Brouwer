@@ -40,7 +40,7 @@ function timer() {
 	var its = document.getElementById("its");
 
 
-	if (hours > 5 && hours < 12) {
+	if (hours > 5 && hours < 12) { //Different time variables
 		title.innerHTML = "Good morning,";
 		document.getElementById("img1").style.display = "block";
 		document.getElementById("img0").style.display = "none";
@@ -77,7 +77,7 @@ function timer() {
 		part.style.display = "none";
 		its.style.display = "none";
 
-	}else if (hours >= 23 || hours <= 1) {
+	} else if (hours >= 23 || hours <= 1) {
 		title.innerHTML = "Good night,";
 		document.getElementById("img4").style.display = "block";
 		document.getElementById("img0").style.display = "none";
@@ -93,18 +93,45 @@ function timer() {
 		part.style.display = "block";
 		its.style.display = "inline";
 	}
+
+	if (hours >= 6 && hours <= 18) { //Sun or moon
+		document.getElementById("sun").style.display = "block";
+		document.getElementById("moon").style.display =  "none";
+	} else {
+		document.getElementById("moon").style.display =  "block";
+		document.getElementById("sun").style.display =  "none";
+	}
 }
 
 setInterval(timer, 100);
 
 var dayCycle = document.getElementById('cycle');
+var sun = document.getElementById('sun');
+var moon = document.getElementById('moon');
+var mars = document.getElementById('mars');
+
 TweenLite.defaultEase = Linear.easeNone;
 
-var timeline = new TimelineMax({ repeat: -1});
-	timeline.to(dayCycle, 100, {
+
+var tl2 = new TimelineMax({ repeat: -1});
+	tl2.to(sun, 300, {
 		rotation: 360});
 
-// idee om zon daadwerkelijk te laten draaien. daylight cycle. 
-// Zon 6:00 - 18:00, maan 18:00 - 6:00
+var tl3 = new TimelineMax({ repeat: -1});
+	tl3.to(moon, 300, {
+		rotation: 360});
+	
+var tl5 = new TimelineMax({repeat: -1});
+	tl5.to(mars, 50, {
+		transform: "translate3d(0, 80vh, 0)"});
+
+	tl5.to(mars, 50, {
+		rotation: -360 },'-=50');
+
+	tl5.to(mars, 50, {
+		transform: "translate3d(0, 0vh, 0)"});
+
+
+
 
 
