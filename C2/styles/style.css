@@ -102,6 +102,7 @@ p {
 	height: 200px;
 	z-index: -2;
 }
+/*Background smooth change*/
 @media screen and (max-width: 1080px) {
 	body {
 		background-position: 0px 0px;
