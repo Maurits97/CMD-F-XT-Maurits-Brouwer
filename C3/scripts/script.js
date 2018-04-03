@@ -7,6 +7,10 @@ var temp3;
 var windSpeed3;
 var temp4;
 var windSpeed4;
+var temp5;
+var windSpeed5;
+var temp6;
+var windSpeed6;
 
 function initMap() {
 
