@@ -148,7 +148,6 @@ function getAPIdata() {
   // render weather per day
   .then(function(response) {
     // show full JSON object
-    console.log(response.results);
     var characterArray = response.results;
     var random = characterArray[Math.floor(Math.random() * characterArray.length)];
     document.getElementById("RM").src = random.image;
@@ -170,7 +169,6 @@ function getAPIdataWeather() {
   // render weather per day
   .then(function(response) {
     // show full JSON object
-    console.log(response);
     windSpeed = response.wind.speed;
     temp = response.main.temp;
   })
@@ -190,7 +188,6 @@ function getAPIdataWeather2() {
   // render weather per day
   .then(function(response) {
     // show full JSON object
-    console.log(response);
     windSpeed2 = response.wind.speed;
     temp2 = response.main.temp;
   })
@@ -210,7 +207,6 @@ function getAPIdataWeather3() {
   // render weather per day
   .then(function(response) {
     // show full JSON object
-    console.log(response);
     windSpeed3 = response.wind.speed;
     temp3 = response.main.temp;
   })
@@ -230,7 +226,6 @@ function getAPIdataWeather4() {
   // render weather per day
   .then(function(response) {
     // show full JSON object
-    console.log(response);
     windSpeed4 = response.wind.speed;
     temp4 = response.main.temp;
   })
@@ -246,11 +241,9 @@ function getAPIdataWeather5() {
   .then(function(response) {
     return response.json();
   })
-  
   // render weather per day
   .then(function(response) {
     // show full JSON object
-    console.log(response);
     windSpeed5 = response.wind.speed;
     temp5 = response.main.temp;
   })
@@ -270,7 +263,6 @@ function getAPIdataWeather6() {
   // render weather per day
   .then(function(response) {
     // show full JSON object
-    console.log(response);
     windSpeed6 = response.wind.speed;
     temp6 = response.main.temp;
   })
