@@ -160,7 +160,7 @@ function getAPIdata() {
 }
 function getAPIdataWeather() {
   // get latest weather
-  fetch('https://api.openweathermap.org/data/2.5/weather?lat=52.311481&lon=4.766752&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=52.311481&lon=4.766752&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
   // parse to JSON format
   .then(function(response) {
     return response.json();
@@ -179,7 +179,7 @@ function getAPIdataWeather() {
 }
 function getAPIdataWeather2() {
   // get latest weather
-  fetch('https://api.openweathermap.org/data/2.5/weather?lat=51.955271&lon=4.439765&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=51.955271&lon=4.439765&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
   // parse to JSON format
   .then(function(response) {
     return response.json();
@@ -198,7 +198,7 @@ function getAPIdataWeather2() {
 }
 function getAPIdataWeather3() {
   // get latest weather
-  fetch('https://api.openweathermap.org/data/2.5/weather?lat=51.458264&lon=5.389123&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=51.458264&lon=5.389123&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
   // parse to JSON format
   .then(function(response) {
     return response.json();
@@ -217,7 +217,7 @@ function getAPIdataWeather3() {
 }
 function getAPIdataWeather4() {
   // get latest weather
-  fetch('https://api.openweathermap.org/data/2.5/weather?lat=53.125665&lon=6.577628&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=53.125665&lon=6.577628&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
   // parse to JSON format
   .then(function(response) {
     return response.json();
@@ -236,7 +236,7 @@ function getAPIdataWeather4() {
 }
 function getAPIdataWeather5() {
   // get latest weather
-  fetch('https://api.openweathermap.org/data/2.5/weather?lat=52.247389&lon=4.728658&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=52.247389&lon=4.728658&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
   // parse to JSON format
   .then(function(response) {
     return response.json();
@@ -254,7 +254,7 @@ function getAPIdataWeather5() {
 }
 function getAPIdataWeather6() {
   // get latest weather
-  fetch('https://api.openweathermap.org/data/2.5/weather?lat=52.192602&lon=5.064446&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=52.192602&lon=5.064446&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
   // parse to JSON format 52.192602, lng: 5.064446
   .then(function(response) {
     return response.json();
