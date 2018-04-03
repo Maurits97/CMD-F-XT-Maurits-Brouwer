@@ -22,6 +22,10 @@ function initMap() {
       url: 'img/water.png',
       scaledSize: new google.maps.Size(50, 50)
   };
+  var bioscoopIcon = {
+      url: 'img/bioscoopIcon.png',
+      scaledSize: new google.maps.Size(30, 30)
+  };
 
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 52.266329,  lng: 5.156905},
@@ -57,6 +61,26 @@ function initMap() {
     position: {lat: 52.192602, lng: 5.064446},
     map: map,
     icon: waterIcon
+  });
+  var bioscoop1 = new google.maps.Marker({
+    position: {lat: 52.364345, lng: 4.883887}, //amsterdam
+    map: map,
+    icon: bioscoopIcon
+  });
+  var bioscoop2 = new google.maps.Marker({ //rotterdam
+    position: {lat: 51.920983, lng: 4.473564},
+    map: map,
+    icon: bioscoopIcon
+  });
+  var bioscoop3 = new google.maps.Marker({
+    position: {lat: 51.442395, lng: 5.479437}, //eindhoven
+    map: map,
+    icon: bioscoopIcon
+  });
+  var bioscoop4 = new google.maps.Marker({
+    position: {lat: 53.214861, lng: 6.566891}, //groningen
+    map: map,
+    icon: bioscoopIcon
   });
 
   getAPIdataWeather();
@@ -139,6 +163,18 @@ function initMap() {
         });
   loosdrecht.addListener('click', function() {
           infoLoosdrecht.open(map, loosdrecht);
+        });
+  bioscoop1.addListener('click', function() {
+          window.open('https://www.pathe.nl/bioscoop/city');
+        });
+  bioscoop2.addListener('click', function() {
+          window.open('https://www.pathe.nl/bioscoop/schouwburgplein');
+        });
+  bioscoop3.addListener('click', function() {
+          window.open('https://www.pathe.nl/bioscoop/eindhoven');
+        });
+  bioscoop4.addListener('click', function() {
+          window.open('https://www.pathe.nl/bioscoop/groningen');
         });
 }
 
