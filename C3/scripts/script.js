@@ -69,32 +69,38 @@ function initMap() {
   var contentSchiphol = '<div class="markerContent">Landingplatform: Schiphol Airport' + '<br />' +
                       'Sea level: -3 m' + '<br />' +
                       'Temperature: ' + temp + ' degrees' +'<br />' +
-                      'Windspeed: '+ windSpeed + ' km/h'+ '<br />'
+                      'Windspeed: '+ windSpeed + ' km/h'+ '<br />' +
+                      '<img src="img/schiphol.jpg" />' +
                       '</div>';
   var contentRotterdam = '<div class="markerContent">Landingplatform: Rotterdam The Hague Airport' + '<br />' +
                       'Sea level: -4 m' + '<br />' +
                       'Temperature: ' + temp2 + ' degrees' +'<br />' +
-                      'Windspeed: '+ windSpeed2 + ' km/h'+ '<br />'
+                      'Windspeed: '+ windSpeed2 + ' km/h'+ '<br />' +
+                      '<img src="img/rotterdamairport.jpg" />' +
                       '</div>';
   var contentEindhoven = '<div class="markerContent">Landingplatform: Eindhoven Airport' + '<br />' +
                       'Sea level: 20 m' + '<br />' +
                       'Temperature: ' + temp3 + ' degrees' +'<br />' +
-                      'Windspeed: '+ windSpeed3 + ' km/h'+ '<br />'
+                      'Windspeed: '+ windSpeed3 + ' km/h'+ '<br />' +
+                      '<img src="img/eindhoven.jpg" />' +
                       '</div>';
   var contentGroningen = '<div class="markerContent">Landingplatform: Groningen Airport Eelde' + '<br />' +
                       'Sea level: 3 m' + '<br />' +
                       'Temperature: ' + temp4 + ' degrees' +'<br />' +
-                      'Windspeed: '+ windSpeed4 + ' km/h'+ '<br />'
+                      'Windspeed: '+ windSpeed4 + ' km/h'+ '<br />' +
+                      '<img src="img/groningen.jpg" />' +
                       '</div>';
   var contentAalsmeer = '<div class="markerContent">Landingplatform: Aalsmeer' + '<br />' +
                       'Sea level: -3.66 m' + '<br />' +
                       'Temperature: ' + temp5 + ' degrees' +'<br />' +
-                      'Windspeed: '+ windSpeed5 + ' km/h'+ '<br />'
+                      'Windspeed: '+ windSpeed5 + ' km/h'+ '<br />' +
+                      '<img src="img/aalsmeer.jpg" />' +
                       '</div>';
   var contentLoosdrecht = '<div class="markerContent">Landingplatform: Loosdrecht' + '<br />' +
                       'Sea level: 1.86 m' + '<br />' +
                       'Temperature: ' + temp6 + ' degrees' +'<br />' +
-                      'Windspeed: '+ windSpeed6 + ' km/h'+ '<br />'
+                      'Windspeed: '+ windSpeed6 + ' km/h'+ '<br />' +
+                      '<img src="img/loosdrecht.jpg" />' +
                       '</div>';                          
 
   var infoSchiphol = new google.maps.InfoWindow({

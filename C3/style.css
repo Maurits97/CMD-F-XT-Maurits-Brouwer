@@ -28,6 +28,14 @@ html, body {
   font-size: 20px;
   color: white;
 }
+.markerContent {
+  font-weight: bold;
+  font-size: 18px;
+}
+.markerContent img{
+  width: 400px;
+
+}
 @media screen and (max-width: 970px) { 
   .welcome {
     visibility: hidden;
