@@ -7,12 +7,18 @@ var temp3;
 var windSpeed3;
 var temp4;
 var windSpeed4;
+
 function initMap() {
 
 	var airportIcon = {
 		  url: 'img/airport.svg',
 		  scaledSize: new google.maps.Size(50, 50)
 	};
+  var waterIcon = {
+      url: 'img/water.png',
+      scaledSize: new google.maps.Size(50, 50)
+  };
+
   map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: 52.266329,  lng: 5.156905},
     zoom: 8,
@@ -38,11 +44,25 @@ function initMap() {
   	map: map,
   	icon: airportIcon
   });
+  var aalsmeer = new google.maps.Marker({
+    position: {lat: 52.247389, lng: 4.728658},
+    map: map,
+    icon: waterIcon
+  });
+  var loosdrecht = new google.maps.Marker({
+    position: {lat: 52.192602, lng: 5.064446},
+    map: map,
+    icon: waterIcon
+  });
 
   getAPIdataWeather();
   getAPIdataWeather2();
   getAPIdataWeather3();
   getAPIdataWeather4();
+  getAPIdataWeather5();
+  getAPIdataWeather6();
+
+
 
   var contentSchiphol = '<div class="markerContent">Landingplatform: Schiphol Airport' + '<br />' +
                       'Sea level: -3 m' + '<br />' +
@@ -63,7 +83,17 @@ function initMap() {
                       'Sea level: 3 m' + '<br />' +
                       'Temperature: ' + temp4 + ' degrees' +'<br />' +
                       'Windspeed: '+ windSpeed4 + ' km/h'+ '<br />'
-                      '</div>';                    
+                      '</div>';
+  var contentAalsmeer = '<div class="markerContent">Landingplatform: Aalsmeer' + '<br />' +
+                      'Sea level: -3.66 m' + '<br />' +
+                      'Temperature: ' + temp5 + ' degrees' +'<br />' +
+                      'Windspeed: '+ windSpeed5 + ' km/h'+ '<br />'
+                      '</div>';
+  var contentLoosdrecht = '<div class="markerContent">Landingplatform: Loosdrecht' + '<br />' +
+                      'Sea level: 1.86 m' + '<br />' +
+                      'Temperature: ' + temp6 + ' degrees' +'<br />' +
+                      'Windspeed: '+ windSpeed6 + ' km/h'+ '<br />'
+                      '</div>';                          
 
   var infoSchiphol = new google.maps.InfoWindow({
       content: contentSchiphol
@@ -77,6 +107,12 @@ function initMap() {
   var infoGroningen = new google.maps.InfoWindow({
       content: contentGroningen
       });
+  var infoAalsmeer = new google.maps.InfoWindow({
+      content: contentAalsmeer
+      });
+  var infoLoosdrecht = new google.maps.InfoWindow({
+      content: contentLoosdrecht
+      });
 
   schiphol.addListener('click', function() {
           infoSchiphol.open(map, schiphol);
@@ -89,6 +125,12 @@ function initMap() {
         });
   groningen.addListener('click', function() {
           infoGroningen.open(map, groningen);
+        });
+  aalsmeer.addListener('click', function() {
+          infoAalsmeer.open(map, aalsmeer);
+        });
+  loosdrecht.addListener('click', function() {
+          infoLoosdrecht.open(map, loosdrecht);
         });
 }
 
@@ -193,10 +235,52 @@ function getAPIdataWeather4() {
     console.error('Request failed', error);
   });
 }
+function getAPIdataWeather5() {
+  // get latest weather
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=52.247389&lon=4.728658&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  // parse to JSON format
+  .then(function(response) {
+    return response.json();
+  })
+  
+  // render weather per day
+  .then(function(response) {
+    // show full JSON object
+    console.log(response);
+    windSpeed5 = response.wind.speed;
+    temp5 = response.main.temp;
+  })
+  // catch error
+  .catch(function (error) {
+    console.error('Request failed', error);
+  });
+}
+function getAPIdataWeather6() {
+  // get latest weather
+  fetch('http://api.openweathermap.org/data/2.5/weather?lat=52.192602&lon=5.064446&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
+  // parse to JSON format 52.192602, lng: 5.064446
+  .then(function(response) {
+    return response.json();
+  })
+  
+  // render weather per day
+  .then(function(response) {
+    // show full JSON object
+    console.log(response);
+    windSpeed6 = response.wind.speed;
+    temp6 = response.main.temp;
+  })
+  // catch error
+  .catch(function (error) {
+    console.error('Request failed', error);
+  });
+}
 
 getAPIdata();
 getAPIdataWeather();
 getAPIdataWeather2();
 getAPIdataWeather3();
 getAPIdataWeather4();
+getAPIdataWeather5();
+getAPIdataWeather6();
 
