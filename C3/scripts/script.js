@@ -66,8 +66,6 @@ function initMap() {
   getAPIdataWeather5();
   getAPIdataWeather6();
 
-
-
   var contentSchiphol = '<div class="markerContent">Landingplatform: Schiphol Airport' + '<br />' +
                       'Sea level: -3 m' + '<br />' +
                       'Temperature: ' + temp + ' degrees' +'<br />' +
