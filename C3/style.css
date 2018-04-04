@@ -40,4 +40,10 @@ html, body {
   .welcome {
     visibility: hidden;
   }
+  .markerContent {
+    font-size: 14px;
+  }
+  .markerContent img {
+    width: 200px;
+  }
 }
