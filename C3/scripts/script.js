@@ -295,7 +295,7 @@ function getAPIdataWeather5() {
 function getAPIdataWeather6() {
   // get latest weather
   fetch('https://api.openweathermap.org/data/2.5/weather?lat=52.192602&lon=5.064446&units=metric&APPID=612d97da4d3eabf8ec876d11c5cd608c')
-  // parse to JSON format 52.192602, lng: 5.064446
+  // parse to JSON format
   .then(function(response) {
     return response.json();
   })
